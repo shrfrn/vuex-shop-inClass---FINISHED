@@ -1,0 +1,83 @@
+body {
+    max-width: 600px;
+    margin:auto;
+    padding: 10px;
+}
+ a {
+     color: rgb(65, 44, 5);
+ }
+.main-title {
+    text-align: center;
+    color:rgba(36, 7, 7, 0.685);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: lightcoral;
+    padding: 10px;
+}
+header h5 span{
+    background-color: rgb(202, 76, 76);
+    padding: 4px;
+    border-radius: 4px;
+}
+header h5 a{
+    font-size: 0.8em;
+    color: yellowgreen;
+}
+footer {
+    background-color: rgb(202, 76, 76);
+    padding: 10px;
+}
+
+button {
+    border: 0;
+    border-radius: 4px;
+    background-color: rgb(202, 76, 76);    
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover {
+    background-color: rgb(65, 24, 24);
+    border-radius: 0px;
+}
+
+.router-link-exact-active {
+    color: white;
+}
+
+.alert {
+    color:white;
+    padding: 10px;
+    font-size: 1.4em;
+    position: absolute;
+    top:0;
+    right:0;
+    background-color: grey;
+}
+
+.alert-success {
+    background-color: rgb(15, 122, 15);
+}
+.alert-danger {
+    background-color: rgb(122, 11, 11);
+}
+
+
+.cart {
+    background-color: brown;
+    padding: 5px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.user-info {
+    background-color: brown;
+    padding: 10px;
+    float: right;
+}
+ul {
+    list-style-type: none;
+}
